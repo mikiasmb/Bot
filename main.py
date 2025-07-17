@@ -2,7 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 from Features import calculator, quote, summarize, text_generation_command
 
-TOKEN = "7490793616:AAHvI55ObfxRlCOh0FdOdDdnxfOQ4JCqZkg"
+TOKEN = "BOT TOKEN"
 keyboard = {
     "main-menu": [
         [KeyboardButton("Calculate"), KeyboardButton("Generate AI-text")],
